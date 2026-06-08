@@ -1,7 +1,7 @@
 # gabr-02-before-after
-
-- **Status:** golden (vector). Source: `../../motifs/before-after.svg`.
-- **Type:** before/after transformation table.
-- **What it is:** Two cards on near-black — BEFORE (FOUNDER JOB, muted gray) → AFTER (TRANSFERABLE ASSET, soft white) with a yellow arrow between. EBITDA line in mono, the "7x–8x" in Exit Yellow.
-- **Reuse:** the canonical FROM FOUNDER JOB → TRANSFERABLE ASSET layout. Edit the SVG.
-- **Alt text:** A before-and-after comparison turning a founder-dependent job into a transferable asset.
+- **Status:** golden (vector). Source: colocated `gabr-02-before-after.svg`. Redone 2026-06-08 to match Ron's home-page mockup.
+- **Type:** before/after comparison table.
+- **What it is:** Left title block ("FROM FOUNDER JOB TO TRANSFERABLE ASSET." + subcopy + SEE THE TRANSFORMATION button). Two cards: a RED-headed "BEFORE (FOUNDER JOB)" column with crimson ✕ rows, and a YELLOW-headed "AFTER (TRANSFERABLE ASSET)" column with yellow ✓ rows. EBITDA rows in IBM Plex Mono (3x–4x → 7x–8x, the after in yellow).
+- **Note:** uses a controlled crimson (#E23B3B) for the BEFORE/problem state — a deliberate match to Ron's render. This is the one sanctioned exception to the single-accent rule; reserve red strictly for the negative/before state, never decoratively.
+- **Reuse:** the canonical transformation table. Edit the SVG; keep the red=before / yellow=after semantic.
+- **Alt text:** A before/after table contrasting a founder-dependent business (red Xs) with a transferable one (yellow checks).

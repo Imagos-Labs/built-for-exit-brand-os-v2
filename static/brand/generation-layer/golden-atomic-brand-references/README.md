@@ -30,6 +30,16 @@ A rulebook tells a model what to do; golden references show it what *good* looks
 | 18 | `gabr-18-empty-boardroom` — runs without you | photographic |
 | 19 | `gabr-19-process-wall` — documentation made legible | photographic |
 | 20 | `gabr-20-desk-dashboard` — the score in context | photographic |
+| 21 | `gabr-21-merch-tee-4` — black tee, the Hollow 4 | merch (gpt-image-2) |
+| 22 | `gabr-22-merch-tee-b4e` — black tee, B4E | merch (gpt-image-2) |
+| 23 | `gabr-23-merch-flask` — insulated flask | merch (gpt-image-2) |
+| 24 | `gabr-24-merch-cap` — cap, the 4 | merch (gpt-image-2) |
+| 25 | `gabr-25-founder-portrait` — B&W exec portrait | photographic |
+| 26 | `gabr-26-podcast-studio` — dark studio + mic | photographic |
+| 27 | `gabr-27-tarmac` — lone figure, jet at dusk | photographic |
+| 28 | `gabr-28-device-mockup` — site on a laptop | photographic |
+
+> **Process note:** GABRs 15–28 were produced by mining Ron's brand-source mockups for elements that gpt-image-2 renders well (photography, product/merch, device-in-context) and generating each as a dedicated reference. Elements that are text- or data-heavy (posters, scorecards, the index UI, before/after) are authored as crisp SVG instead (01–05, 08–14) so the typography and numbers stay exact.
 
 Vector GABR source SVGs are colocated here (or in `../../motifs/` for 01–05) — edit those, then re-render the PNG. The logo matrix (the Hollow 4 mark, wordmark, B4E monogram, lockup) lives in `../../logos/` — pass those as references for any asset that reuses the mark.
 

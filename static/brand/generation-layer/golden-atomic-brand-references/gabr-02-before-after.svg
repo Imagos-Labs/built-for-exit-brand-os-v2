@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="From founder job to transferable asset">
+  <title>From founder job to transferable asset — before / after</title>
+  <rect width="1280" height="720" fill="#050505"/>
+
+  <!-- left title block -->
+  <text x="64" y="92" font-size="12" font-weight="700" letter-spacing="3" fill="#9A9A9F">BEFORE / AFTER</text>
+  <text x="62" y="150" font-size="40" font-weight="800" fill="#F3F3F3" letter-spacing="-0.01em">FROM FOUNDER</text>
+  <text x="62" y="194" font-size="40" font-weight="800" fill="#F3F3F3" letter-spacing="-0.01em">JOB TO</text>
+  <text x="62" y="238" font-size="40" font-weight="800" fill="#DFFF00" letter-spacing="-0.01em">TRANSFERABLE</text>
+  <text x="62" y="282" font-size="40" font-weight="800" fill="#DFFF00" letter-spacing="-0.01em">ASSET.</text>
+  <text x="64" y="338" font-family="Inter,sans-serif" font-size="16" fill="#9A9A9F"><tspan x="64" dy="0">We replace dependency with</tspan><tspan x="64" dy="24">systems that scale, so your</tspan><tspan x="64" dy="24">business runs without you.</tspan></text>
+  <g>
+    <rect x="64" y="430" width="300" height="52" rx="8" fill="none" stroke="#2D2D31"/>
+    <text x="88" y="463" font-size="14" font-weight="700" letter-spacing="1.5" fill="#F3F3F3">SEE THE TRANSFORMATION</text>
+    <path d="M326 456 l10 0 M332 451 l5 5 -5 5" stroke="#DFFF00" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- BEFORE card -->
+  <rect x="476" y="64" width="372" height="592" rx="14" fill="#141416" stroke="#2D2D31"/>
+  <path d="M476 78 a14 14 0 0 1 14 -14 h344 a14 14 0 0 1 14 14 v32 h-372 z" fill="#E23B3B"/>
+  <text x="500" y="98" font-size="13" font-weight="800" letter-spacing="1.5" fill="#0B0B0C">BEFORE (FOUNDER JOB)</text>
+
+  <!-- AFTER card -->
+  <rect x="868" y="64" width="372" height="592" rx="14" fill="#1A1A1D" stroke="#2D2D31"/>
+  <path d="M868 78 a14 14 0 0 1 14 -14 h344 a14 14 0 0 1 14 14 v32 h-372 z" fill="#DFFF00"/>
+  <text x="892" y="98" font-size="13" font-weight="800" letter-spacing="1.5" fill="#050505">AFTER (TRANSFERABLE ASSET)</text>
+
+  <!-- rows -->
+  <g font-family="Inter,sans-serif" font-size="15.5">
+    <!-- before: X marks in crimson; after: checks in yellow. Rows at y centers 150,234,318,402,486,570 -->
+    <g fill="#C9C9CE">
+      <text x="540" y="156">Business stops when you stop</text>
+      <text x="540" y="240">Revenue tied to your relationships</text>
+      <text x="540" y="324">Operations in your head</text>
+      <text x="540" y="408">AI underutilized</text>
+      <text x="540" y="492" font-family="'IBM Plex Mono',monospace" fill="#9A9A9F">3x–4x EBITDA at exit</text>
+      <text x="540" y="576">Can't take a real vacation</text>
+    </g>
+    <g fill="#F3F3F3">
+      <text x="932" y="156">Business runs without you</text>
+      <text x="932" y="240">Diversified, transferable revenue</text>
+      <text x="932" y="324">Documented, repeatable systems</text>
+      <text x="932" y="408">AI embedded across workflows</text>
+      <text x="932" y="492" font-family="'IBM Plex Mono',monospace" fill="#DFFF00">7x–8x EBITDA at exit</text>
+      <text x="932" y="576">You can leave for a month</text>
+    </g>
+    <!-- before X icons -->
+    <g stroke="#E23B3B" stroke-width="2" fill="none" stroke-linecap="round">
+      <g transform="translate(508,151)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+      <g transform="translate(508,235)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+      <g transform="translate(508,319)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+      <g transform="translate(508,403)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+      <g transform="translate(508,487)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+      <g transform="translate(508,571)"><circle r="9"/><path d="M-4 -4 l8 8 M4 -4 l-8 8"/></g>
+    </g>
+    <!-- after check icons -->
+    <g stroke="#DFFF00" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(900,151)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+      <g transform="translate(900,235)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+      <g transform="translate(900,319)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+      <g transform="translate(900,403)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+      <g transform="translate(900,487)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+      <g transform="translate(900,571)"><circle r="9"/><path d="M-4 0 l3 4 l6 -8"/></g>
+    </g>
+    <!-- row separators -->
+    <g stroke="#2D2D31" stroke-width="1">
+      <line x1="500" y1="192" x2="824" y2="192"/><line x1="500" y1="276" x2="824" y2="276"/><line x1="500" y1="360" x2="824" y2="360"/><line x1="500" y1="444" x2="824" y2="444"/><line x1="500" y1="528" x2="824" y2="528"/>
+      <line x1="892" y1="192" x2="1216" y2="192"/><line x1="892" y1="276" x2="1216" y2="276"/><line x1="892" y1="360" x2="1216" y2="360"/><line x1="892" y1="444" x2="1216" y2="444"/><line x1="892" y1="528" x2="1216" y2="528"/>
+    </g>
+  </g>
+</svg>
