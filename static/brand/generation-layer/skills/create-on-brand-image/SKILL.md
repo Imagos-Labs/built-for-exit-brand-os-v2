@@ -9,9 +9,11 @@ The canonical, **hosted** procedure for producing an on-brand image for this bra
 
 ## 0. Load the brand
 
-Fetch this brand's prime and follow it — the served root is `brand.json` → `site_url`, then `/brand.txt` (planned custom domain: `brand.builtforexit.ai`).
+Fetch this brand's prime and follow it:
 
-It carries the master prompt, color + type tokens, voice, banned terms, the non-negotiables, and absolute URLs to every Golden Atomic Brand Reference (GABR). **This v2 brand OS is not yet deployed — read `static/brand.txt`, `brand.json`, and `BRAND.md` from the repo directly until `site_url` is set.**
+> **`https://built-for-exit-brand-os-v2.vercel.app/brand.txt`** (planned custom domain: `brand.builtforexit.ai`)
+
+It carries the master prompt, color + type tokens, voice, banned terms, the non-negotiables, and absolute URLs to every Golden Atomic Brand Reference (GABR).
 
 ## 1. Pick an image model (sensible defaults)
 

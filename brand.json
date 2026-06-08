@@ -151,9 +151,9 @@
     "tokens": "tokens.css",
     "live_surface": "../landing-page/ (deploys to builtforexit.ai — v1 navy/gold; rebuild to v2 is a follow-on)"
   },
-  "portal": { "framework": "Docusaurus 3 + Tailwind v4", "run": "pnpm install && pnpm start", "url_planned": "https://brand.builtforexit.ai", "url_live": "" },
+  "portal": { "framework": "Docusaurus 3 + Tailwind v4", "run": "pnpm install && pnpm start", "url_planned": "https://brand.builtforexit.ai", "url_live": "https://built-for-exit-brand-os-v2.vercel.app" },
   "manifest": "BRAND.md",
-  "site_url": "",
+  "site_url": "https://built-for-exit-brand-os-v2.vercel.app",
   "brand_txt": "static/brand.txt (auto-generated at build time by scripts/build-brand-txt.mjs)",
   "version": "2.0.0",
   "supersedes": "../brand/ (v1: navy + gold + door, retired 2026-06-08)",

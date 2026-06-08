@@ -76,51 +76,51 @@ Signature: the Hollow 4 (a bold, slightly oblique outlined numeral 4 in Exit Yel
 - Visual: gradients, drop shadows, glossy 3D / chrome, neon / cyberpunk, filled or 3D icons, any illustration, smiling-team stock photos, conference-room stock photos, any second saturated color competing with Exit Yellow
 
 ## Logo matrix (absolute URLs)
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-16.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-180.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-192.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-32.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-48.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon-512.png
-- https://brand.builtforexit.ai/brand/logos/crops/favicon.png
-- https://brand.builtforexit.ai/brand/logos/crops/og-card.png
-- https://brand.builtforexit.ai/brand/logos/crops/social-avatar.png
-- https://brand.builtforexit.ai/brand/logos/raster/lockup-horizontal.png
-- https://brand.builtforexit.ai/brand/logos/raster/mark-4-yellow.png
-- https://brand.builtforexit.ai/brand/logos/raster/monogram-b4e.png
-- https://brand.builtforexit.ai/brand/logos/raster/wordmark-white.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-16.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-180.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-192.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-32.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-48.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon-512.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/favicon.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/og-card.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/crops/social-avatar.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/raster/lockup-horizontal.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/raster/mark-4-yellow.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/raster/monogram-b4e.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/logos/raster/wordmark-white.png
 
 ## On-brand asset skills (hosted procedures — follow these to generate)
-- https://brand.builtforexit.ai/brand/generation-layer/skills/create-gabr/SKILL.md
-- https://brand.builtforexit.ai/brand/generation-layer/skills/create-on-brand-image/SKILL.md
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/skills/create-gabr/SKILL.md
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/skills/create-on-brand-image/SKILL.md
 
 ## Golden Atomic Brand References (reference images — pass these to the image model)
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-01-dependency-diagram.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-02-before-after.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-03-exit-readiness-scorecard.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-04-exit-readiness-radar.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-05-progression-rail.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-06-founder-alone.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-07-control-room.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-08-involuntary-exits.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-09-the-system.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-10-valuation-uplift.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-11-options.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-12-engagement-timeline.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-13-guarantee-badge.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-14-hollow4-watermark.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-15-hangar.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-16-warehouse.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-17-airport-departure.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-18-empty-boardroom.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-19-process-wall.png
-- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-20-desk-dashboard.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-01-dependency-diagram.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-02-before-after.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-03-exit-readiness-scorecard.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-04-exit-readiness-radar.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-05-progression-rail.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-06-founder-alone.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-07-control-room.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-08-involuntary-exits.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-09-the-system.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-10-valuation-uplift.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-11-options.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-12-engagement-timeline.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-13-guarantee-badge.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-14-hollow4-watermark.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-15-hangar.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-16-warehouse.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-17-airport-departure.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-18-empty-boardroom.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-19-process-wall.png
+- https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/golden-atomic-brand-references/gabr-20-desk-dashboard.png
 
 ## Fonts
 
 ## Tokens + manifest
-- tokens.css: https://brand.builtforexit.ai/brand/tokens.css
-- generation layer: https://brand.builtforexit.ai/brand/generation-layer/
+- tokens.css: https://built-for-exit-brand-os-v2.vercel.app/brand/tokens.css
+- generation layer: https://built-for-exit-brand-os-v2.vercel.app/brand/generation-layer/
 
 ---
-Generated at build time by scripts/build-brand-txt.mjs. BASE_URL=https://brand.builtforexit.ai
+Generated at build time by scripts/build-brand-txt.mjs. BASE_URL=https://built-for-exit-brand-os-v2.vercel.app
