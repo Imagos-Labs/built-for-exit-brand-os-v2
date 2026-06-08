@@ -1,0 +1,92 @@
+/* Built for Exit Brand OS portal theme — Tailwind v4 + Infima, from brand tokens.
+   Mirror of tokens.css (v2): near-black + Exit Yellow, Neue Haas Grotesk register.
+   Dark-dominant. NO shadows, ever. 1px steel borders. */
+
+/* Tailwind v4: theme + utilities layers only (skip preflight so Infima isn't clobbered) */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@source '../../docs/**/*.{md,mdx}';
+@source '../../src/**/*.{ts,tsx,js,jsx}';
+
+/* Brand fonts (Inter + Inter Tight + IBM Plex Mono) are loaded via config `stylesheets`. */
+
+/* Tailwind @theme — mirror of tokens.css */
+@theme {
+  --color-bfx-black:    #050505;
+  --color-bfx-carbon:   #0F0F10;
+  --color-bfx-graphite: #1A1A1D;
+  --color-bfx-steel:    #2D2D31;
+  --color-bfx-white:    #F3F3F3;
+  --color-bfx-gray:     #9A9A9F;
+  --color-bfx-yellow:   #DFFF00;
+  --color-bfx-ground:   #050505;
+  --color-bfx-surface:  #1A1A1D;
+  --color-bfx-accent:   #DFFF00;
+
+  --font-bfx-display: 'Neue Haas Grotesk Display', 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  --font-bfx-body:    'Inter', system-ui, sans-serif;
+  --font-bfx-mono:    'IBM Plex Mono', ui-monospace, monospace;
+}
+
+/* Map Infima onto the brand — dark mode is the canonical (and only) mode */
+:root {
+  --ifm-color-primary: #DFFF00;          /* Exit Yellow is the link / active color */
+  --ifm-color-primary-dark: #C6E900;
+  --ifm-color-primary-darker: #b6d600;
+  --ifm-color-primary-darkest: #97b200;
+  --ifm-color-primary-light: #e6ff33;
+  --ifm-color-primary-lighter: #ebff52;
+  --ifm-color-primary-lightest: #f2ff85;
+
+  --ifm-background-color: #050505;
+  --ifm-font-color-base: #F3F3F3;
+  --ifm-heading-color: #F3F3F3;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', ui-monospace, monospace;
+  --ifm-heading-font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-weight: 800;
+  --ifm-navbar-background-color: #050505;
+  --ifm-footer-background-color: #0F0F10;
+  --ifm-footer-color: #9A9A9F;
+  --ifm-code-font-size: 92%;
+  --ifm-code-background: #1A1A1D;
+  --ifm-color-content-secondary: #9A9A9F;
+  --docusaurus-highlighted-code-line-bg: rgba(223, 255, 0, 0.14);
+}
+
+/* Force dark Infima palette as the base (we ship dark-only) */
+:root,
+[data-theme='light'],
+[data-theme='dark'] {
+  --ifm-background-color: #050505;
+  --ifm-background-surface-color: #0F0F10;
+  --ifm-font-color-base: #F3F3F3;
+  --ifm-heading-color: #F3F3F3;
+  --ifm-navbar-background-color: #050505;
+  --ifm-toc-border-color: #2D2D31;
+  --ifm-table-border-color: #2D2D31;
+  --ifm-color-emphasis-300: #2D2D31;
+}
+
+html { background-color: #050505; }
+.main-wrapper { background-color: #050505; }
+.navbar { border-bottom: 1px solid #2D2D31; box-shadow: none; }
+.footer { border-top: 1px solid #2D2D31; }
+.card, .menu, .navbar { box-shadow: none !important; }
+
+/* Headlines: grotesk, tight, uppercase-friendly */
+.markdown h1, .markdown h2, .markdown h3 {
+  font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: -0.015em;
+  font-weight: 800;
+}
+
+/* Mono is for numbers — keep code/metrics legible on dark */
+.markdown code { color: #DFFF00; background: #1A1A1D; border: 1px solid #2D2D31; }
+
+/* Live swatch + spec helpers used by the docs pages */
+.bfx-swatch { display:inline-flex; flex-direction:column; gap:6px; }
+.bfx-swatch .chip { width:100%; height:64px; border:1px solid #2D2D31; border-radius:8px; }
+.bfx-swatch .meta { font-family:'IBM Plex Mono', monospace; font-size:12px; color:#9A9A9F; }

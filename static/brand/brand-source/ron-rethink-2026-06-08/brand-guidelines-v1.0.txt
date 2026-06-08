@@ -1,0 +1,517 @@
+﻿BUILT FOR EXIT
+Brand Guidelines v1.0
+________________
+
+
+Brand Positioning
+Category
+Business Transformation
+Subcategory
+Transferability & Exit Readiness
+Core Idea
+Transferability Creates Freedom.
+Mission
+Transform founder-dependent businesses into transferable assets.
+Definition
+A transferable business is a business that can be handed to another person and continue operating successfully.
+Not just a buyer.
+A successor.
+A CEO.
+A management team.
+A family member.
+Or your future self after 90 days away.
+________________
+
+
+Brand Personality
+Archetypes
+Primary
+Architect
+* structured
+* systematic
+* deliberate
+* engineered
+Secondary
+Operator
+* practical
+* execution-focused
+* outcomes-driven
+________________
+
+
+Avoid
+Do not feel like:
+* startup guru
+* business coach
+* consultant
+* marketing agency
+* SaaS startup
+________________
+
+
+Should Feel Like
+* Porsche
+* Blackstone
+* Anduril
+* Palantir
+* Linear
+* Stripe Press
+________________
+
+
+Brand Voice
+Writing Style
+Short.
+Direct.
+High conviction.
+No fluff.
+No buzzwords.
+No hype.
+________________
+
+
+Example
+Good:
+Can your business survive 90 days without you?
+
+
+Bad:
+Unlock transformational operational excellence.
+
+
+________________
+
+
+Color System
+Primary Black
+Background.
+#050505
+
+
+________________
+
+
+Carbon
+Secondary dark.
+#0F0F10
+
+
+________________
+
+
+Graphite
+Cards.
+#1A1A1D
+
+
+________________
+
+
+Steel
+Borders.
+#2D2D31
+
+
+________________
+
+
+Soft White
+Primary text.
+#F3F3F3
+
+
+________________
+
+
+Exit Yellow
+Primary brand color.
+Used sparingly.
+#DFFF00
+
+
+________________
+
+
+Exit Yellow Hover
+#C6E900
+
+
+________________
+
+
+Muted Gray
+Secondary copy.
+#9A9A9F
+
+
+________________
+
+
+Typography
+Primary Display
+Neue Haas Grotesk Display
+Preferred.
+Weights:
+* Bold
+* Black
+________________
+
+
+Alternative
+Helvetica Now Display
+________________
+
+
+Fallback
+Inter Tight
+________________
+
+
+Headline Rules
+Always:
+* uppercase
+* bold
+* tight line-height
+* large scale
+Example:
+CAN YOUR BUSINESS
+SURVIVE
+90 DAYS
+WITHOUT YOU?
+
+
+________________
+
+
+Body Font
+Inter
+Weights:
+* Regular
+* Medium
+________________
+
+
+Mono Font
+IBM Plex Mono
+Use for:
+* scores
+* valuation metrics
+* statistics
+* dashboards
+Example:
+72 / 100
+
+
+________________
+
+
+Spacing System
+8px base.
+Scale:
+8
+16
+24
+32
+48
+64
+96
+128
+
+
+Generous whitespace.
+Never cramped.
+________________
+
+
+Layout System
+Desktop Container
+max-width: 1440px;
+
+
+________________
+
+
+Content Width
+1200px
+
+
+________________
+
+
+Grid
+12 columns.
+________________
+
+
+Corner Radius
+Cards:
+16px
+
+
+Buttons:
+8px
+
+
+________________
+
+
+Borders
+1px solid #2D2D31
+
+
+No shadows.
+Ever.
+________________
+
+
+Buttons
+Primary
+Background:
+#DFFF00
+
+
+Text:
+#050505
+
+
+________________
+
+
+Secondary
+Transparent.
+Border:
+#2D2D31
+
+
+Text:
+White.
+________________
+
+
+Website Structure
+________________
+
+
+Hero
+Question.
+Not a statement.
+CAN YOUR BUSINESS
+SURVIVE
+90 DAYS
+WITHOUT YOU?
+
+
+________________
+
+
+CTA:
+Take Assessment
+________________
+
+
+Visual:
+Founder dependency map.
+________________
+
+
+Section 2
+Transferable™
+Definition section.
+________________
+
+
+Section 3
+Transferability Creates Options
+Cards:
+* Succession
+* CEO Transition
+* Scale
+* Exit
+________________
+
+
+Section 4
+You May Never Sell
+That's Fine.
+Statistics.
+________________
+
+
+Section 5
+Before / After
+Founder Job
+↓
+Transferable Asset
+________________
+
+
+Section 6
+Framework
+1. Documentation
+2. Systems
+3. Operations
+4. Revenue
+5. Financial & Diligence
+________________
+
+
+Section 7
+Assessment
+Exit Readiness Index™
+________________
+
+
+Section 8
+Footer
+Dallas HQ
+Money Back Guarantee
+Navigation
+Social
+________________
+
+
+Visual Language
+Signature Element
+The Hollow 4
+Used as:
+* watermark
+* favicon
+* icon
+* footer element
+* merch
+Never overused.
+________________
+
+
+Graphic Language
+Dependency Diagram
+Founder at center.
+Everything connected.
+________________
+
+
+Transformation Diagram
+Before
+↓
+After
+________________
+
+
+Scorecards
+Large.
+Data-driven.
+Monochrome.
+________________
+
+
+Icon Style
+Only:
+* outlined
+* geometric
+* minimal
+No:
+* gradients
+* filled icons
+* illustrations
+________________
+
+
+Photography Style
+Avoid:
+* smiling teams
+* stock photos
+* conference rooms
+________________
+
+
+Use:
+* founder alone
+* airports
+* private hangars
+* empty office
+* documentation
+* process maps
+* manufacturing
+* warehouses
+* control rooms
+________________
+
+
+Motion Principles
+Everything should feel engineered.
+Not playful.
+Animations:
+* fade
+* reveal
+* connect
+* count-up
+Avoid:
+* bouncing
+* elastic effects
+* flashy motion
+________________
+
+
+Design References
+Top references for designer:
+Linear
+Typography.
+Spacing.
+Minimalism.
+________________
+
+
+Anduril
+Authority.
+Defense-grade confidence.
+________________
+
+
+Porsche
+Premium execution.
+________________
+
+
+Stripe Press
+Editorial sophistication.
+________________
+
+
+Blackstone
+Institutional trust.
+________________
+
+
+Deliverables Requested From Designer
+Brand
+* Logo package
+* Icon system
+* Color palette
+* Typography hierarchy
+Website
+* Desktop designs
+* Mobile designs
+* Design system
+* Components
+* Navigation states
+* Footer
+* Forms
+Assets
+* Dependency diagrams
+* Before/after tables
+* Transferability visuals
+* Assessment graphics
+* Money-back badge
+* Dallas HQ map
+Output
+* Figma file
+* Component library
+* Design tokens
+* Responsive layouts
+* Developer handoff specs
+________________
+
+
+Final Brand Rule
+If someone removed the logo from the page, the design should still feel like:
+a private equity firm, a luxury automotive brand, and an elite operating system company had a child.

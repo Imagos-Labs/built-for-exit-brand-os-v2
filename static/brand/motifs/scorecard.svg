@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Exit Readiness Score scorecard">
+  <title>Exit Readiness Score™ — 72 / 100</title>
+  <rect width="520" height="460" fill="#050505"/>
+  <rect x="24" y="24" width="472" height="412" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+  <text x="48" y="66" font-size="13" font-weight="700" letter-spacing="2" fill="#9A9A9F">EXIT READINESS SCORE™</text>
+  <!-- big mono score -->
+  <text x="48" y="150" font-family="'IBM Plex Mono',monospace" font-size="96" font-weight="600" fill="#F3F3F3">72</text>
+  <text x="190" y="150" font-family="'IBM Plex Mono',monospace" font-size="40" fill="#9A9A9F">/ 100</text>
+  <!-- pillar bars -->
+  <g font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="13">
+    <!-- row template: label, track, fill, mono value -->
+    <g transform="translate(48,200)">
+      <text y="0" fill="#9A9A9F">Documentation</text><rect x="0" y="10" width="360" height="8" rx="4" fill="#2D2D31"/><rect x="0" y="10" width="306" height="8" rx="4" fill="#DFFF00"/><text x="396" y="16" font-family="'IBM Plex Mono',monospace" fill="#F3F3F3">85</text>
+    </g>
+    <g transform="translate(48,242)">
+      <text y="0" fill="#9A9A9F">Systems</text><rect x="0" y="10" width="360" height="8" rx="4" fill="#2D2D31"/><rect x="0" y="10" width="227" height="8" rx="4" fill="#DFFF00"/><text x="396" y="16" font-family="'IBM Plex Mono',monospace" fill="#F3F3F3">63</text>
+    </g>
+    <g transform="translate(48,284)">
+      <text y="0" fill="#9A9A9F">Operations</text><rect x="0" y="10" width="360" height="8" rx="4" fill="#2D2D31"/><rect x="0" y="10" width="252" height="8" rx="4" fill="#DFFF00"/><text x="396" y="16" font-family="'IBM Plex Mono',monospace" fill="#F3F3F3">70</text>
+    </g>
+    <g transform="translate(48,326)">
+      <text y="0" fill="#9A9A9F">Revenue</text><rect x="0" y="10" width="360" height="8" rx="4" fill="#2D2D31"/><rect x="0" y="10" width="220" height="8" rx="4" fill="#DFFF00"/><text x="396" y="16" font-family="'IBM Plex Mono',monospace" fill="#F3F3F3">61</text>
+    </g>
+    <g transform="translate(48,368)">
+      <text y="0" fill="#9A9A9F">Financial &amp; Diligence</text><rect x="0" y="10" width="360" height="8" rx="4" fill="#2D2D31"/><rect x="0" y="10" width="295" height="8" rx="4" fill="#DFFF00"/><text x="396" y="16" font-family="'IBM Plex Mono',monospace" fill="#F3F3F3">82</text>
+    </g>
+  </g>
+</svg>

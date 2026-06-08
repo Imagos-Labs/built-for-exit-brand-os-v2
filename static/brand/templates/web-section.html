@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+  Built for Exit — web section blocks (reusable source, not a screenshot).
+  Pulls every value from /brand/tokens.css. Drop these <section> blocks into any
+  page. Dark is canonical. No shadows. 1px steel borders. Exit Yellow at value
+  moments only. Numbers in IBM Plex Mono. Headlines uppercase grotesk.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Built for Exit — section blocks</title>
+  <link rel="stylesheet" href="/brand/tokens.css" />
+  <style>
+    body { margin: 0; background: var(--bfx-black); color: var(--bfx-white);
+           font-family: var(--bfx-font-body); }
+    .wrap { max-width: var(--bfx-content); margin: 0 auto; padding: 0 var(--bfx-space-3); }
+    section { padding: var(--bfx-space-16) 0; border-bottom: 1px solid var(--bfx-steel); }
+    .eyebrow { font: 600 var(--bfx-text-label)/1 var(--bfx-font-body);
+               text-transform: uppercase; letter-spacing: var(--bfx-tracking-label);
+               color: var(--bfx-gray); margin: 0 0 var(--bfx-space-2); }
+    h1, h2 { font-family: var(--bfx-font-display); font-weight: var(--bfx-weight-display);
+             text-transform: uppercase; line-height: var(--bfx-leading-display);
+             letter-spacing: -0.015em; margin: 0; }
+    h1 { font-size: var(--bfx-text-display); }
+    h2 { font-size: var(--bfx-text-h1); }
+    p { font-size: var(--bfx-text-body); line-height: var(--bfx-leading-body);
+        color: var(--bfx-gray); max-width: 52ch; }
+    .accent { color: var(--bfx-yellow); }
+    .btn { display:inline-block; background: var(--bfx-yellow); color: var(--bfx-black);
+           font-weight: 600; padding: 14px 22px; border-radius: var(--bfx-radius-button);
+           text-decoration: none; border: 0; }
+    .btn.ghost { background: transparent; color: var(--bfx-white);
+                 border: 1px solid var(--bfx-steel); }
+    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--bfx-space-2);
+            margin-top: var(--bfx-space-6); }
+    .card { background: var(--bfx-graphite); border: 1px solid var(--bfx-steel);
+            border-radius: var(--bfx-radius-card); padding: var(--bfx-space-3); }
+    .card .n { font-family: var(--bfx-font-mono); color: var(--bfx-gray);
+               font-size: var(--bfx-text-sm); }
+    .card h3 { font-family: var(--bfx-font-display); text-transform: uppercase;
+               font-size: 1.1rem; margin: var(--bfx-space-1) 0; }
+    .stat { font-family: var(--bfx-font-mono); font-size: 3.5rem; color: var(--bfx-white); }
+  </style>
+</head>
+<body>
+  <!-- HERO: a question, never a statement -->
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Built for Exit</p>
+      <h1>Can your business<br/>survive 90 days<br/>without you?</h1>
+      <p style="margin-top:var(--bfx-space-3)">We transform founder-dependent businesses into transferable assets.</p>
+      <div style="margin-top:var(--bfx-space-4); display:flex; gap:var(--bfx-space-2)">
+        <a class="btn" href="#assessment">Take Assessment</a>
+        <a class="btn ghost" href="#system">View Framework</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK: the five levers -->
+  <section id="system">
+    <div class="wrap">
+      <p class="eyebrow">The System™</p>
+      <h2>Five levers.<br/>One transformation.<br/>Lasting freedom.</h2>
+      <div class="grid">
+        <div class="card"><div class="n">01</div><h3>Documentation</h3><p>Get every core process out of your head.</p></div>
+        <div class="card"><div class="n">02</div><h3>Systems</h3><p>Repeatable systems that run without you.</p></div>
+        <div class="card"><div class="n">03</div><h3>Operations</h3><p>Remove key-person risk at every layer.</p></div>
+        <div class="card"><div class="n">04</div><h3>Revenue</h3><p>Revenue that survives the founder.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAT band -->
+  <section>
+    <div class="wrap">
+      <div class="grid" style="grid-template-columns:repeat(2,1fr)">
+        <div><div class="stat accent">50%</div><p>of business exits are involuntary. Death. Disability. Divorce. Disagreement. Distress.</p></div>
+        <div><div class="stat accent">80%</div><p>of business owners have no transition plan in place.</p></div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

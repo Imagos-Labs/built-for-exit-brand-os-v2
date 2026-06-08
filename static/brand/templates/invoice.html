@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+  Built for Exit — invoice template (reusable source, mirrors Ron's invoice mockups).
+  Dark canonical; a light inversion is available by swapping the two vars at :root.
+  Numbers in IBM Plex Mono. TOTAL row carries the only Exit Yellow. Big 4 watermark.
+  Pulls tokens from /brand/tokens.css.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Built for Exit — invoice</title>
+  <link rel="stylesheet" href="/brand/tokens.css" />
+  <style>
+    :root { --ink: var(--bfx-white); --bg: var(--bfx-black); --panel: var(--bfx-graphite); }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--bfx-font-body);
+           -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .sheet { max-width: 820px; margin: 0 auto; padding: var(--bfx-space-8) var(--bfx-space-6);
+             position: relative; overflow: hidden; }
+    .mark4 { position: absolute; right: -40px; top: 24px; font-family: var(--bfx-font-display);
+             font-weight: 800; font-style: italic; font-size: 320px; line-height: 1;
+             color: var(--bfx-yellow); opacity: 0.10; pointer-events: none; }
+    .head { display: flex; justify-content: space-between; align-items: flex-start;
+            border-bottom: 1px solid var(--bfx-steel); padding-bottom: var(--bfx-space-3); }
+    .lockup { font-family: var(--bfx-font-display); font-weight: 800; font-style: italic;
+              text-transform: uppercase; line-height: 0.95; font-size: 1.6rem; letter-spacing: 0.5px; }
+    .inv-no { font-family: var(--bfx-font-mono); color: var(--bfx-yellow); font-size: 1.1rem; }
+    .meta { display: grid; grid-template-columns: 1fr 1fr; gap: var(--bfx-space-4);
+            margin: var(--bfx-space-4) 0; font-size: var(--bfx-text-sm); color: var(--bfx-gray); }
+    .meta b { color: var(--ink); display:block; font-weight: 600; margin-bottom: 4px;
+              text-transform: uppercase; letter-spacing: var(--bfx-tracking-label); font-size: 11px; }
+    table { width: 100%; border-collapse: collapse; margin-top: var(--bfx-space-4);
+            font-family: var(--bfx-font-mono); font-size: 0.9rem; }
+    th { text-align: left; color: var(--bfx-gray); font-weight: 500; text-transform: uppercase;
+         letter-spacing: 1px; font-size: 11px; border-bottom: 1px solid var(--bfx-steel);
+         padding: 10px 8px; }
+    td { padding: 14px 8px; border-bottom: 1px solid var(--bfx-steel); color: var(--ink); }
+    td.r, th.r { text-align: right; }
+    .total td { border-top: 1px solid var(--bfx-steel); border-bottom: 0; font-size: 1.05rem; }
+    .total td.amt { background: var(--bfx-yellow); color: var(--bfx-black); font-weight: 600;
+                    border-radius: var(--bfx-radius-button); }
+    .foot { display: flex; justify-content: space-between; margin-top: var(--bfx-space-8);
+            color: var(--bfx-gray); font-size: var(--bfx-text-sm); }
+    .tag { font-family: var(--bfx-font-mono); letter-spacing: 2px; color: var(--bfx-yellow); }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <div class="mark4">4</div>
+    <div class="head">
+      <div class="lockup">Built for<br/>Exit</div>
+      <div style="text-align:right">
+        <div class="inv-no">INV-2024-057</div>
+        <div style="color:var(--bfx-gray);font-size:13px;margin-top:6px">Issued · Due Net 15</div>
+      </div>
+    </div>
+
+    <div class="meta">
+      <div><b>From</b>Built for Exit<br/>Dallas, TX<br/>hello@builtforexit.ai</div>
+      <div><b>Billed To</b>Acme Holdings, LLC<br/>Attn: Owner<br/>Dallas, TX</div>
+    </div>
+
+    <table>
+      <thead><tr><th>Item</th><th class="r">Qty</th><th class="r">Rate</th><th class="r">Amount</th></tr></thead>
+      <tbody>
+        <tr><td>Exit Readiness Assessment</td><td class="r">1</td><td class="r">$5,000</td><td class="r">$5,000</td></tr>
+        <tr><td>Transferability Engagement — Phase 1 of 5</td><td class="r">1</td><td class="r">$24,000</td><td class="r">$24,000</td></tr>
+        <tr class="total"><td colspan="2"></td><td class="r" style="text-transform:uppercase;letter-spacing:1px;color:var(--bfx-gray)">Total (USD)</td><td class="r amt">&nbsp;$29,000&nbsp;</td></tr>
+      </tbody>
+    </table>
+
+    <div class="foot">
+      <div>Transferability creates freedom.<br/>Money-back guarantee.</div>
+      <div class="tag">FREEDOM IS A SYSTEM</div>
+    </div>
+  </div>
+</body>
+</html>

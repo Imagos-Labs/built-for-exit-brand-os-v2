@@ -1,0 +1,149 @@
+{
+  "brand": "Built for Exit",
+  "lockup": "BUILT FOR EXIT",
+  "handle": "builtforexit.ai",
+  "tagline": "Transferability creates freedom.",
+  "one_liner": "Built for Exit transforms founder-dependent businesses into transferable assets — companies that can be handed to someone else and keep running.",
+  "audience": "Founders and operators of established businesses who have become the system their company depends on. The work is for owners who want optionality — a successor, a CEO, a sale, or simply a month away — whether or not they ever sell.",
+  "archetype": "Architect (primary): structured, systematic, deliberate, engineered. Operator (secondary): practical, execution-focused, outcomes-driven. The register of a private equity firm, a luxury automotive brand, and an elite operating-system company.",
+  "non_negotiables": [
+    "Dark is canonical: near-black ground, Soft White text, one acid accent.",
+    "Exit Yellow (#DFFF00) is used sparingly — value moments only, never more than ~8% of a surface.",
+    "Everything should feel engineered, not playful. No shadows, ever. 1px steel borders.",
+    "Icons are outlined, geometric, minimal — no gradients, no filled icons, no illustration.",
+    "Photography is founder-alone / industrial / B&W — never smiling teams, stock photos, or conference rooms.",
+    "If the logo were removed, the page should still read as PE × luxury auto × elite OS company.",
+    "Short, direct, high-conviction copy. No buzzwords. No hype. No em dashes."
+  ],
+  "operators": ["Gary Sheng", "Ron Roberts II"],
+  "asset_root": "static/brand/",
+  "served_root": "/brand/",
+  "thesis": "Most founders don't own a business — they own a job with overhead. AI has, for the first time, made it affordable to document, systemize, de-risk, and transfer a company in months. Transferability removes dependency; transferability creates freedom.",
+  "positioning": "The framework for building a transferable company. Exit is not the goal — optionality is. The Hollow 4 brand, the Exit Readiness Index™, and The System™ (five levers) make founder-dependency visible and then engineer it out.",
+  "core_idea": "Transferability creates freedom.",
+  "mission": "Transform founder-dependent businesses into transferable assets.",
+  "trademarks": ["Transferable™", "The System™", "Exit Readiness Index™", "Exit Readiness Score™", "Built For Exit Approved™"],
+  "aesthetic": {
+    "posture": "Dark mode, engineered, institutional. A private equity firm × a luxury automotive brand × an elite operating-system company. Near-black ground (#050505), generous whitespace, 1px steel borders, NO shadows. One acid accent (Exit Yellow) at value moments only. Type is heavy grotesk in uppercase for headlines, Inter for body, IBM Plex Mono for every number. Visual language: the Hollow 4, founder-at-center dependency diagrams, before/after transformation tables, monochrome data scorecards, five-pillar exit-readiness radar. Photography is founder-alone and industrial (hangars, control rooms, empty offices, warehouses), B&W or heavily desaturated.",
+    "should_feel_like": ["Porsche", "Blackstone", "Anduril", "Palantir", "Linear", "Stripe Press"],
+    "never": [
+      "startup-guru / business-coach / consultant / marketing-agency / SaaS-startup register",
+      "gradients, drop shadows, glossy 3D, neon",
+      "filled or 3D icons; any illustration",
+      "smiling teams, stock photos, conference-room photography",
+      "playful, bouncy, or elastic motion",
+      "any second saturated color competing with Exit Yellow"
+    ],
+    "master_prompt": "static/brand/generation-layer/master-prompt.md"
+  },
+  "motion": {
+    "principle": "Everything should feel engineered, not playful.",
+    "use": ["fade", "reveal", "connect", "count-up"],
+    "avoid": ["bouncing", "elastic effects", "flashy motion"]
+  },
+  "tokens": {
+    "css": "tokens.css",
+    "color": {
+      "black": "#050505",
+      "carbon": "#0F0F10",
+      "graphite": "#1A1A1D",
+      "steel": "#2D2D31",
+      "white": "#F3F3F3",
+      "gray": "#9A9A9F",
+      "yellow": "#DFFF00",
+      "yellow-hover": "#C6E900",
+      "ground": "#050505",
+      "ink": "#F3F3F3",
+      "accent": "#DFFF00"
+    },
+    "type": {
+      "display": { "family": "Neue Haas Grotesk Display (alt Helvetica Now Display; fallback Inter Tight)", "rules": "uppercase, bold/black, tight line-height, large scale" },
+      "body": { "family": "Inter", "weights": "Regular, Medium" },
+      "mono": { "family": "IBM Plex Mono", "use": "scores, valuation metrics, statistics, dashboards" },
+      "source": "Google Fonts (Inter, Inter Tight, IBM Plex Mono); Neue Haas Grotesk Display licensed separately",
+      "import": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap",
+      "scale": { "display": "clamp 44-96px", "h1": "clamp 34-56px", "h2": "clamp 25-36px", "body": "17px", "label": "12px tracked" }
+    },
+    "space": { "base": "8px", "scale": [8, 16, 24, 32, 48, 64, 96, 128], "rule": "generous whitespace, never cramped" },
+    "layout": { "container": "1440px", "content": "1200px", "grid": "12 columns" },
+    "shape": { "radius_card": "16px", "radius_button": "8px", "border": "1px solid #2D2D31", "shadow": "none" }
+  },
+  "motif": {
+    "name": "The Hollow 4",
+    "description": "The signature mark: a bold, slightly oblique numeral 4 drawn as a thick open outline — the 'for' in B4E (Built 4 Exit). Used as watermark, favicon, icon, footer element, and merch. Never overused. Supporting graphic language: founder-at-center dependency diagram, before/after transformation table, monochrome scorecard, and the five-pillar exit-readiness radar.",
+    "file": "static/brand/logos/raster/mark-4-yellow.png",
+    "supporting": ["dependency diagram (founder at center)", "before/after transformation", "monochrome scorecard (72/100)", "five-pillar exit-readiness radar", "progression rail: DEPENDENT → DOCUMENTED → SYSTEMIZED → TRANSFERABLE → EXIT READY"]
+  },
+  "voice": {
+    "motto": "Transferability creates freedom.",
+    "register": "short, direct, high-conviction; engineered, institutional, calm authority",
+    "people_called": "founders / operators",
+    "tone": ["engineered", "deliberate", "direct", "high-conviction", "institutional"],
+    "positive_move": "Ask the hard question, then state the system that answers it. Short sentences. Numbers in mono. Specifics over adjectives. Never hype.",
+    "on_brand": [
+      "Can your business survive 90 days without you?",
+      "Your business should work. Without you.",
+      "Most founders don't own a business. They own a job with overhead.",
+      "Exit is not the goal. Optionality is.",
+      "If it's not documented, it's not transferable.",
+      "Freedom is a system."
+    ],
+    "off_brand": [
+      "Unlock transformational operational excellence.",
+      "startup-guru / hustle / motivational cadence",
+      "SaaS-landing-page cadence (\"the all-in-one platform for...\")",
+      "consultant / agency buzzword stacks",
+      "AI hype or AI doom framing"
+    ],
+    "banned_words": ["unlock", "supercharge", "synergy", "revolutionary", "game-changer", "paradigm", "disrupt", "transformational excellence", "10x your business", "leverage (as a filler verb)", "world-class", "cutting-edge"],
+    "banned_visual": ["gradients", "drop shadows", "glossy 3D / chrome", "neon / cyberpunk", "filled or 3D icons", "any illustration", "smiling-team stock photos", "conference-room stock photos", "any second saturated color competing with Exit Yellow"],
+    "rules": ["no em dashes", "short sentences", "numbers set in IBM Plex Mono", "headlines uppercase", "specifics over adjectives"]
+  },
+  "logo": {
+    "horizontal_lockup": "static/brand/logos/raster/lockup-horizontal.png",
+    "wordmark": "static/brand/logos/raster/wordmark-white.png",
+    "mark": "static/brand/logos/raster/mark-4-yellow.png",
+    "monogram": "static/brand/logos/raster/monogram-b4e.png",
+    "favicon": "static/brand/logos/crops/favicon-512.png",
+    "social_avatar": "static/brand/logos/crops/social-avatar.png",
+    "generated_with": "gpt-image-2 (chatgpt-images skill), from Ron's brand-sheet logo system as the reference image",
+    "rules": "Mark = the Hollow 4 (bold oblique outlined numeral 4), works alone at small sizes, Exit-Yellow on black. Horizontal lockup (4 + BUILT FOR EXIT) for navs/headers. Monogram B4E for compact contexts and merch. Wordmark is heavy oblique grotesk, all caps. Always stamp the real wordmark on finished assets; never let an image model draw the text from scratch. Never overuse the 4."
+  },
+  "golden_atomic_brand_references": {
+    "dir": "static/brand/generation-layer/golden-atomic-brand-references/",
+    "definition": "Golden = best-in-class example of its type; Atomic = a single self-contained reusable unit; Brand Reference = fed back to an image model to generate net-new on-brand assets.",
+    "discipline": "Generated incrementally with human validation; each stored next to its prompt + alt text; pass references in for reused elements to prevent drift. Vector GABRs (mark, monogram, diagrams, scorecards) are authored as SVG for crispness; photographic GABRs (founder-alone, control rooms) are generated dark + desaturated. We will have MANY GABRs — this is the seed set.",
+    "source_references": "static/brand/brand-source/ron-rethink-2026-06-08/ (Ron's original brand-guidelines doc, full website copy, and 13 ChatGPT mockups)",
+    "references": [
+      "gabr-01-dependency-diagram.png",
+      "gabr-02-before-after.png",
+      "gabr-03-exit-readiness-scorecard.png",
+      "gabr-04-exit-readiness-radar.png",
+      "gabr-05-progression-rail.png",
+      "gabr-06-founder-alone.png",
+      "gabr-07-control-room.png"
+    ]
+  },
+  "generation_layer": {
+    "dir": "static/brand/generation-layer/",
+    "master_prompt": "static/brand/generation-layer/master-prompt.md",
+    "example_prompts": "static/brand/generation-layer/example-prompts.md",
+    "banned_terms": "static/brand/generation-layer/banned-terms.md",
+    "spec": "static/brand/generation-layer/illustrations/SPEC.md",
+    "scripts": "static/brand/generation-layer/scripts/",
+    "skills": "static/brand/generation-layer/skills/"
+  },
+  "assets_index": {
+    "manifest": "BRAND.md",
+    "tokens": "tokens.css",
+    "live_surface": "../landing-page/ (deploys to builtforexit.ai — v1 navy/gold; rebuild to v2 is a follow-on)"
+  },
+  "portal": { "framework": "Docusaurus 3 + Tailwind v4", "run": "pnpm install && pnpm start", "url_planned": "https://brand.builtforexit.ai", "url_live": "" },
+  "manifest": "BRAND.md",
+  "site_url": "",
+  "brand_txt": "static/brand.txt (auto-generated at build time by scripts/build-brand-txt.mjs)",
+  "version": "2.0.0",
+  "supersedes": "../brand/ (v1: navy + gold + door, retired 2026-06-08)",
+  "form": "full-brand-os-wiki",
+  "generated_by": "generate-a-brand-os recipe"
+}

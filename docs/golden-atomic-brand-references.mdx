@@ -1,0 +1,59 @@
+---
+title: Golden Atomic Brand References
+sidebar_label: Golden Atomic Brand References
+---
+
+# Golden Atomic Brand References
+
+The pillar of the brand OS. **A rulebook tells a model what to do; golden references show it what good looks like.** These are the canonical exemplar assets that *are* the Built for Exit visual universe, fed back into an image model as in-context references to generate net-new on-brand assets.
+
+<div style={{margin:'20px 0', display:'grid', gap:'12px', gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))'}}>
+  <div style={{borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'16px'}}><b style={{fontFamily:"'Inter Tight',sans-serif", display:'block', textTransform:'uppercase'}}>Golden</b>the best-in-class example of its type</div>
+  <div style={{borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'16px'}}><b style={{fontFamily:"'Inter Tight',sans-serif", display:'block', textTransform:'uppercase'}}>Atomic</b>a single, self-contained, reusable unit</div>
+  <div style={{borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'16px'}}><b style={{fontFamily:"'Inter Tight',sans-serif", display:'block', textTransform:'uppercase'}}>Brand Reference</b>fed back to the model to seed new assets</div>
+</div>
+
+Two modes: **vector** data graphics (authored as SVG in `static/brand/motifs/`) and **photographic** founder-alone / industrial scenes (generated, B&W). Each is stored next to its prompt or SVG source. **We will have MANY** — this is the seed set.
+
+## Vector graphics
+
+### 01 · Dependency diagram
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-01-dependency-diagram.png" alt="A founder at the center of a node graph, every business function wired back to that one person" style={{width:'100%', maxWidth:'620px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+Founder at center, every function wired back to one node. The "single point of failure" visual.
+
+### 02 · Before / after
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-02-before-after.png" alt="A before-and-after comparison: founder job versus transferable asset" style={{width:'100%', maxWidth:'620px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+FROM FOUNDER JOB → TRANSFERABLE ASSET. The "after" column and the 7x–8x EBITDA line carry the yellow.
+
+### 03 · Exit Readiness scorecard
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-03-exit-readiness-scorecard.png" alt="An exit-readiness scorecard showing 72 out of 100 across five pillars" style={{width:'100%', maxWidth:'460px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+`72 / 100` Exit Readiness Score™ with five pillar bars. Numbers in mono.
+
+### 04 · Exit Readiness radar
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-04-exit-readiness-radar.png" alt="A five-pillar radar chart of transferability" style={{width:'100%', maxWidth:'460px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+The five pillars of transferability as a radar. The Exit Readiness Index™ feature.
+
+### 05 · Progression rail
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-05-progression-rail.png" alt="A five-stage progression from dependent to exit ready" style={{width:'100%', maxWidth:'620px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+DEPENDENT → DOCUMENTED → SYSTEMIZED → TRANSFERABLE → EXIT READY. The System™ rail.
+
+## Photography
+
+### 06 · Founder alone
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-06-founder-alone.png" alt="A lone founder at floor-to-ceiling windows in a dark empty office at night, a single yellow exit sign glowing" style={{width:'100%', maxWidth:'640px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+The canonical founder-alone hero. B&W, empty office at night, one Exit-Yellow anchor (the exit sign).
+
+### 07 · Control room
+<img src="/brand/generation-layer/golden-atomic-brand-references/gabr-07-control-room.png" alt="A lone operator facing a vast dark wall of process maps and dashboards" style={{width:'100%', maxWidth:'640px', borderRadius:'8px', border:'1px solid #2D2D31'}} />
+
+The company as a legible system: a lone operator before a wall of process maps. Defense-grade calm.
+
+## How to use a GABR
+
+Pass the reference image(s) to your image model alongside the [master prompt](/generation-layer), then describe the *new* asset. The references lock the universe (dark ground, the one accent, the finish); your prompt varies the subject. To **add** a new reference, follow the hosted [`create-gabr`](/brand/generation-layer/skills/create-gabr/SKILL.md) skill: scope it against the set, generate for coherence by passing the nearest GABRs in, validate with a human, store the prompt + refs + alt text, register it in `brand.json`, and regenerate `brand.txt`.

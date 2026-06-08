@@ -1,0 +1,40 @@
+---
+title: Color
+sidebar_label: Color
+---
+
+# Color
+
+Dark is canonical. Near-black grounds carry everything; **Exit Yellow appears only at value moments** (the score, the CTA, the one rising line) and never on more than ~8% of a surface. All roles live in [`tokens.css`](/brand/tokens.css) and `brand.json#tokens.color`.
+
+<div style={{display:'grid', gap:'16px', margin:'24px 0', gridTemplateColumns:'repeat(auto-fill,minmax(150px,1fr))'}}>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#050505'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Primary Black</b><code>#050505</code><br/>page ground</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#0F0F10'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Carbon</b><code>#0F0F10</code><br/>sections</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#1A1A1D'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Graphite</b><code>#1A1A1D</code><br/>cards</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#2D2D31'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Steel</b><code>#2D2D31</code><br/>borders</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#DFFF00'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Exit Yellow</b><code>#DFFF00</code><br/>accent · sparing</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#C6E900'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Exit Yellow Hover</b><code>#C6E900</code><br/>pressed</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#F3F3F3'}}></div><div style={{padding:'8px', fontSize:'13px', color:'#9A9A9F'}}><b style={{display:'block', color:'#F3F3F3'}}>Soft White</b><code>#F3F3F3</code><br/>primary text</div></div>
+  <div style={{borderRadius:'8px', border:'1px solid #2D2D31', overflow:'hidden'}}><div style={{height:'72px', background:'#9A9A9F'}}></div><div style={{padding:'8px', fontSize:'13px'}}><b style={{display:'block'}}>Muted Gray</b><code>#9A9A9F</code><br/>secondary copy</div></div>
+</div>
+
+## The one rule
+
+Exit Yellow is a scalpel, not a paint bucket. In any composition it marks **exactly one thing** — the number that matters, the call to action, the "after" column. Steel and Soft White carry everything else. If yellow is on more than ~8% of a surface, pull back.
+
+## Why this palette
+
+| Color | Means |
+|---|---|
+| **Near-black** | engineered, institutional, defense-grade calm |
+| **Exit Yellow** | the single value moment — freedom, the result, the go |
+| **Steel + graphite** | the system underneath: structure, panels, hairlines |
+
+## Surfaces
+
+- **No shadows, ever.** Depth comes from 1px steel borders and the carbon/graphite step, not drop shadows.
+- A **light inversion** exists (white ground, near-black ink, yellow accent) for invoices and the rare print surface — see `templates/invoice.html`. Dark is the default everywhere else.
+
+:::tip[Tokens are the source of truth]
+The portal, the landing page, and any generated site or deck all pull from `tokens.css`. Change a hex once, there.
+:::

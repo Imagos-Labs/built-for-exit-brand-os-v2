@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Stat card template">
+  <title>Stat card — reusable social/deck atom</title>
+  <rect width="480" height="300" fill="#050505"/>
+  <rect x="24" y="24" width="432" height="252" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+  <!-- faint hollow-4 watermark -->
+  <g transform="translate(330,40) scale(1.5)" opacity="0.10"><path fill="#DFFF00" fill-rule="evenodd" d="M68 8 L96 8 L96 122 L70 122 L70 96 L8 96 L8 72 Z M70 20 L70 72 L30 72 Z"/></g>
+  <text x="52" y="78" font-size="13" font-weight="700" letter-spacing="2" fill="#9A9A9F">VALUATION UPLIFT</text>
+  <text x="48" y="190" font-family="'IBM Plex Mono',monospace" font-size="120" font-weight="600" fill="#DFFF00">7x</text>
+  <text x="52" y="238" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#F3F3F3">EBITDA at exit, up from 3x–4x</text>
+</svg>

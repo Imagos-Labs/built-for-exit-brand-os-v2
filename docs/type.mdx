@@ -1,0 +1,43 @@
+---
+title: Type
+sidebar_label: Type
+---
+
+# Type
+
+Three families. The display face is **Neue Haas Grotesk Display** (licensed separately; **Inter Tight** is the freely-hostable proxy/fallback wired into the portal). Body is **Inter**. Every number is **IBM Plex Mono**. Import line in [`tokens.css`](/brand/tokens.css).
+
+<div style={{margin:'24px 0', borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'24px'}}>
+  <div style={{fontSize:'12px', textTransform:'uppercase', letterSpacing:'0.14em', color:'#9A9A9F'}}>Display · Neue Haas Grotesk Display (fallback Inter Tight)</div>
+  <div style={{fontFamily:"'Inter Tight','Helvetica Neue',Arial,sans-serif", fontWeight:800, textTransform:'uppercase', lineHeight:0.95, letterSpacing:'-0.01em', fontSize:'2.6rem', marginTop:'8px'}}>Can your business survive 90 days without you?</div>
+  <p style={{fontSize:'13px', marginTop:'10px', marginBottom:0, color:'#9A9A9F'}}>Uppercase, bold/black, tight line-height, large scale. Headlines and the wordmark.</p>
+</div>
+
+<div style={{margin:'24px 0', borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'24px'}}>
+  <div style={{fontSize:'12px', textTransform:'uppercase', letterSpacing:'0.14em', color:'#9A9A9F'}}>Body · Inter</div>
+  <p style={{fontFamily:"'Inter',system-ui,sans-serif", fontSize:'1rem', marginTop:'8px', marginBottom:0}}>Transferability removes dependency. Transferability creates freedom. Paragraphs, captions, interface. Regular and Medium.</p>
+</div>
+
+<div style={{margin:'24px 0', borderRadius:'12px', border:'1px solid #2D2D31', background:'#1A1A1D', padding:'24px'}}>
+  <div style={{fontSize:'12px', textTransform:'uppercase', letterSpacing:'0.14em', color:'#9A9A9F'}}>Mono · IBM Plex Mono</div>
+  <div style={{fontFamily:"'IBM Plex Mono',monospace", fontSize:'2rem', marginTop:'8px', color:'#F3F3F3'}}>72 / 100 &nbsp; <span style={{color:'#DFFF00'}}>7x</span> EBITDA</div>
+  <p style={{fontSize:'13px', marginTop:'10px', marginBottom:0, color:'#9A9A9F'}}>Scores, valuation metrics, statistics, dashboards. Numbers are ALWAYS mono.</p>
+</div>
+
+## Scale
+
+| Role | Token | Size |
+|------|-------|------|
+| Display | `--bfx-text-display` | clamp → 96px |
+| H1 | `--bfx-text-h1` | clamp → 56px |
+| H2 | `--bfx-text-h2` | clamp → 36px |
+| Body | `--bfx-text-body` | 17px |
+| Label | `--bfx-text-label` | 12px tracked caps |
+
+## Pairing rules
+
+- **Display (grotesk)** for headlines and the wordmark: uppercase, bold/black, tight line-height, large.
+- **Inter** for everything functional: body, UI, captions.
+- **IBM Plex Mono** for every number — scores, valuations, stats, invoice line-items, dashboards.
+- **Tracked caps** (letter-spacing 0.14em, muted gray) for eyebrows and labels.
+- Keep body legible at every size. No display face below ~18px.

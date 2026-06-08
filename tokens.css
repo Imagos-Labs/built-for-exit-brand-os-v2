@@ -1,0 +1,124 @@
+/* =========================================================================
+   Built for Exit — Brand Tokens (v2, Ron's rethink — 2026-06-08)
+   Single source of truth for color + type + space + shape. The portal, the
+   landing page, and any generated site/deck pull from THIS file.
+
+   Register: a private equity firm, a luxury automotive brand, and an elite
+   operating system company had a child. Dark mode. One acid accent.
+   Engineered, never playful. NO shadows, ever. 1px steel borders.
+
+   NOTE ON FONTS: the licensed display face is Neue Haas Grotesk Display
+   (Bold / Black). It is not on Google Fonts. The web stack below uses Inter
+   Tight as the freely-hostable proxy/fallback so the system renders correctly
+   before the licensed font is installed. When Neue Haas is licensed, drop the
+   .woff2 into static/brand/fonts/ and it leads the --bfx-font-display stack.
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ---- Color: grounds + neutrals (dark is canonical) ---- */
+  --bfx-black:        #050505; /* Primary Black — page background */
+  --bfx-carbon:       #0F0F10; /* Secondary dark — alternating sections */
+  --bfx-graphite:     #1A1A1D; /* Cards / panels */
+  --bfx-steel:        #2D2D31; /* Borders, hairlines, dividers */
+  --bfx-white:        #F3F3F3; /* Soft White — primary text */
+  --bfx-gray:         #9A9A9F; /* Muted Gray — secondary copy, labels */
+
+  /* ---- Color: the single accent (used sparingly, value moments only) ---- */
+  --bfx-yellow:       #DFFF00; /* Exit Yellow — primary brand color */
+  --bfx-yellow-hover: #C6E900; /* Exit Yellow pressed / hover */
+  --bfx-yellow-soft:  rgba(223, 255, 0, 0.10); /* faint yellow wash, rare */
+
+  /* ---- Color: light inversion (invoices, print, the rare light surface) ---- */
+  --bfx-light-ground: #FFFFFF;
+  --bfx-light-ink:    #050505;
+
+  /* ---- Semantic aliases ---- */
+  --bfx-ground:       var(--bfx-black);
+  --bfx-surface:      var(--bfx-graphite);
+  --bfx-border:       var(--bfx-steel);
+  --bfx-ink:          var(--bfx-white);
+  --bfx-muted:        var(--bfx-gray);
+  --bfx-accent:       var(--bfx-yellow);
+
+  /* ---- Type families ---- */
+  --bfx-font-display: 'Neue Haas Grotesk Display', 'Helvetica Now Display', 'Inter Tight', 'Helvetica Neue', Arial, sans-serif; /* uppercase headlines, Bold/Black */
+  --bfx-font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --bfx-font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace; /* scores, valuations, stats, dashboards */
+
+  /* ---- Type weights ---- */
+  --bfx-weight-body:    400;
+  --bfx-weight-medium:  500;
+  --bfx-weight-display: 800; /* Bold/Black register for headlines */
+
+  /* ---- Type scale (headlines large; tight line-height) ---- */
+  --bfx-text-display: clamp(2.75rem, 1.9rem + 4.2vw, 6rem);
+  --bfx-text-h1:      clamp(2.1rem, 1.6rem + 2.4vw, 3.5rem);
+  --bfx-text-h2:      clamp(1.55rem, 1.3rem + 1.1vw, 2.25rem);
+  --bfx-text-h3:      1.25rem;
+  --bfx-text-body:    1.0625rem;
+  --bfx-text-sm:      0.9rem;
+  --bfx-text-label:   0.75rem; /* tracked caps eyebrows */
+
+  --bfx-leading-display: 0.95; /* tight */
+  --bfx-leading-body:    1.55; /* generous reading */
+  --bfx-tracking-label:  0.14em;
+
+  /* ---- Spacing system (8px base) ---- */
+  --bfx-space-1:  8px;
+  --bfx-space-2:  16px;
+  --bfx-space-3:  24px;
+  --bfx-space-4:  32px;
+  --bfx-space-6:  48px;
+  --bfx-space-8:  64px;
+  --bfx-space-12: 96px;
+  --bfx-space-16: 128px;
+
+  /* ---- Layout ---- */
+  --bfx-container: 1440px; /* desktop container */
+  --bfx-content:   1200px; /* content width */
+  --bfx-grid-cols: 12;
+
+  /* ---- Shape ---- */
+  --bfx-radius-card:   16px;
+  --bfx-radius-button: 8px;
+  --bfx-border-width:  1px;
+  --bfx-shadow:        none; /* NO shadows, ever */
+}
+
+/* =========================================================================
+   Tailwind v4 theme block — mirrored into src/css/custom.css @theme so
+   utilities generate (bg-bfx-black, text-bfx-white, font-bfx-display, etc.).
+   ========================================================================= */
+@theme {
+  --color-bfx-black:    #050505;
+  --color-bfx-carbon:   #0F0F10;
+  --color-bfx-graphite: #1A1A1D;
+  --color-bfx-steel:    #2D2D31;
+  --color-bfx-white:    #F3F3F3;
+  --color-bfx-gray:     #9A9A9F;
+  --color-bfx-yellow:   #DFFF00;
+  --color-bfx-ground:   #050505;
+  --color-bfx-surface:  #1A1A1D;
+  --color-bfx-accent:   #DFFF00;
+
+  --font-bfx-display: 'Neue Haas Grotesk Display', 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  --font-bfx-body:    'Inter', system-ui, sans-serif;
+  --font-bfx-mono:    'IBM Plex Mono', ui-monospace, monospace;
+}
+
+/* ---- Convenience classes ---- */
+.bfx-page     { background: var(--bfx-black); color: var(--bfx-white); font-family: var(--bfx-font-body); }
+.bfx-display  { font-family: var(--bfx-font-display); font-weight: var(--bfx-weight-display);
+                text-transform: uppercase; line-height: var(--bfx-leading-display); letter-spacing: -0.01em; }
+.bfx-label    { font-family: var(--bfx-font-body); text-transform: uppercase;
+                letter-spacing: var(--bfx-tracking-label); font-size: var(--bfx-text-label); color: var(--bfx-gray); }
+.bfx-mono     { font-family: var(--bfx-font-mono); }
+.bfx-card     { background: var(--bfx-graphite); border: 1px solid var(--bfx-steel);
+                border-radius: var(--bfx-radius-card); box-shadow: none; }
+.bfx-accent   { color: var(--bfx-yellow); }
+.bfx-btn      { border-radius: var(--bfx-radius-button); background: var(--bfx-yellow);
+                color: var(--bfx-black); border: 0; font-weight: 600; box-shadow: none; }
+.bfx-btn-ghost{ border-radius: var(--bfx-radius-button); background: transparent;
+                color: var(--bfx-white); border: 1px solid var(--bfx-steel); box-shadow: none; }

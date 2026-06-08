@@ -1,0 +1,113 @@
+# Built for Exit — brand.txt
+
+> BUILT FOR EXIT · Transferability creates freedom.
+
+This is the all-in-one brand file. One URL primes any agent to generate on-brand assets:
+everything is inline below, and every brand asset is linked as an absolute URL.
+Canonical repo manifest: BRAND.md + brand.json. This file is generated at build time from them.
+Format: the brand.txt standard — https://www.appliedai.wiki/reference/standards/brand-txt
+
+## Identity
+- Brand: Built for Exit  |  Lockup: BUILT FOR EXIT  |  Handle: builtforexit.ai
+- Tagline: Transferability creates freedom.
+- One-liner: Built for Exit transforms founder-dependent businesses into transferable assets — companies that can be handed to someone else and keep running.
+- Audience: Founders and operators of established businesses who have become the system their company depends on. The work is for owners who want optionality — a successor, a CEO, a sale, or simply a month away — whether or not they ever sell.
+- Archetype: Architect (primary): structured, systematic, deliberate, engineered. Operator (secondary): practical, execution-focused, outcomes-driven. The register of a private equity firm, a luxury automotive brand, and an elite operating-system company.
+- Non-negotiable: Dark is canonical: near-black ground, Soft White text, one acid accent.
+- Non-negotiable: Exit Yellow (#DFFF00) is used sparingly — value moments only, never more than ~8% of a surface.
+- Non-negotiable: Everything should feel engineered, not playful. No shadows, ever. 1px steel borders.
+- Non-negotiable: Icons are outlined, geometric, minimal — no gradients, no filled icons, no illustration.
+- Non-negotiable: Photography is founder-alone / industrial / B&W — never smiling teams, stock photos, or conference rooms.
+- Non-negotiable: If the logo were removed, the page should still read as PE × luxury auto × elite OS company.
+- Non-negotiable: Short, direct, high-conviction copy. No buzzwords. No hype. No em dashes.
+
+## How to generate an on-brand asset
+Fastest path: follow a HOSTED SKILL below (it automates these steps). Otherwise, by hand:
+1. Prepend the MASTER PROMPT below.
+2. Pass the relevant GOLDEN ATOMIC BRAND REFERENCE image URL(s) to your image model as input/reference images (especially for reused elements like the mark or a mascot).
+3. Describe the new asset. Honor the BANNED TERMS.
+4. For finished/distributable assets, STAMP the real wordmark PNG (linked below) into a reserved band — do not let the model draw the wordmark text.
+5. Use the COLOR + TYPE tokens for any code/site/deck.
+
+## Master prompt (copy verbatim, prepend to any request)
+```text
+Visual asset for Built for Exit, a firm that transforms founder-dependent businesses into transferable assets. Core idea: transferability creates freedom. The register: a private equity firm, a luxury automotive brand, and an elite operating-system company had a child. Should feel like Porsche, Blackstone, Anduril, Palantir, Linear, Stripe Press. Must NOT feel like a startup guru, a business coach, a consultant, a marketing agency, or a SaaS startup.
+
+Mood: engineered, deliberate, institutional, calm authority. Never playful, never hype, never motivational. Generous negative space. Quiet confidence.
+
+Palette (mandatory, dark is canonical): near-black ground #050505, with #0F0F10 and #1A1A1D for panels and #2D2D31 for hairline borders. Text and key forms in soft white #F3F3F3, secondary detail in muted gray #9A9A9F. Exactly ONE accent — Exit Yellow #DFFF00 — used sparingly, marking a single value moment per composition (the score, the CTA, the one rising line). Never more than a small fraction of the frame is yellow. No second saturated color.
+
+Surfaces and finish: flat and matte. NO drop shadows, NO glossy 3D, NO gradients, NO neon glow, NO bloom. 1px steel borders, 16px card corners. Clean and exact, like a hardware UI or a defense-grade dashboard.
+
+If the asset is PHOTOGRAPHY: black-and-white or heavily desaturated. The founder ALONE — never smiling teams, never stock photos, never conference rooms. Settings: empty office at night, a private hangar, an airport, a warehouse, a manufacturing floor, a control room, documentation and process maps on a wall. Dramatic, restrained, cinematic, single-subject. A small Exit-Yellow element may anchor one point of the frame.
+
+If the asset is a DIAGRAM, CHART, or ICON: outlined, geometric, minimal line work on the near-black ground. NO illustration, NO filled cartoon icons, NO gradients. Founder-at-center dependency diagrams, before/after tables, monochrome data scorecards, five-pillar radar. Numbers always set in IBM Plex Mono; labels in tracked uppercase.
+
+Type in image (only if explicitly requested): heavy oblique grotesk (Neue Haas Grotesk Display register; Helvetica/Inter Tight acceptable), uppercase, tight line-height, large scale for headlines; IBM Plex Mono for any number. Prefer to reserve a clean band and stamp the real wordmark afterward rather than letting the model draw text from scratch.
+
+Signature: the Hollow 4 (a bold, slightly oblique outlined numeral 4 in Exit Yellow) may appear quietly as a watermark, badge, or footer element. Never overuse it.
+```
+
+## Color tokens
+- black: #050505
+- carbon: #0F0F10
+- graphite: #1A1A1D
+- steel: #2D2D31
+- white: #F3F3F3
+- gray: #9A9A9F
+- yellow: #DFFF00
+- yellow-hover: #C6E900
+- ground: #050505
+- ink: #F3F3F3
+- accent: #DFFF00
+
+## Type
+- display: Neue Haas Grotesk Display (alt Helvetica Now Display; fallback Inter Tight)
+- body: Inter
+- mono: IBM Plex Mono
+
+## Voice
+- Motto: Transferability creates freedom.
+- Tone: engineered, deliberate, direct, high-conviction, institutional
+- Positive move: Ask the hard question, then state the system that answers it. Short sentences. Numbers in mono. Specifics over adjectives. Never hype.
+
+## Banned terms
+- Words: unlock, supercharge, synergy, revolutionary, game-changer, paradigm, disrupt, transformational excellence, 10x your business, leverage (as a filler verb), world-class, cutting-edge
+- Visual: gradients, drop shadows, glossy 3D / chrome, neon / cyberpunk, filled or 3D icons, any illustration, smiling-team stock photos, conference-room stock photos, any second saturated color competing with Exit Yellow
+
+## Logo matrix (absolute URLs)
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-16.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-180.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-192.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-32.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-48.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon-512.png
+- https://brand.builtforexit.ai/brand/logos/crops/favicon.png
+- https://brand.builtforexit.ai/brand/logos/crops/og-card.png
+- https://brand.builtforexit.ai/brand/logos/crops/social-avatar.png
+- https://brand.builtforexit.ai/brand/logos/raster/lockup-horizontal.png
+- https://brand.builtforexit.ai/brand/logos/raster/mark-4-yellow.png
+- https://brand.builtforexit.ai/brand/logos/raster/monogram-b4e.png
+- https://brand.builtforexit.ai/brand/logos/raster/wordmark-white.png
+
+## On-brand asset skills (hosted procedures — follow these to generate)
+- https://brand.builtforexit.ai/brand/generation-layer/skills/create-gabr/SKILL.md
+- https://brand.builtforexit.ai/brand/generation-layer/skills/create-on-brand-image/SKILL.md
+
+## Golden Atomic Brand References (reference images — pass these to the image model)
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-01-dependency-diagram.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-02-before-after.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-03-exit-readiness-scorecard.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-04-exit-readiness-radar.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-05-progression-rail.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-06-founder-alone.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-07-control-room.png
+
+## Fonts
+
+## Tokens + manifest
+- tokens.css: https://brand.builtforexit.ai/brand/tokens.css
+- generation layer: https://brand.builtforexit.ai/brand/generation-layer/
+
+---
+Generated at build time by scripts/build-brand-txt.mjs. BASE_URL=https://brand.builtforexit.ai

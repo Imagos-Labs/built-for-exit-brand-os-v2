@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Before and after: founder job to transferable asset">
+  <title>From founder job to transferable asset</title>
+  <rect width="760" height="460" fill="#050505"/>
+  <!-- headers -->
+  <text x="40" y="52" font-size="15" font-weight="800" letter-spacing="2" fill="#9A9A9F">BEFORE — FOUNDER JOB</text>
+  <text x="420" y="52" font-size="15" font-weight="800" letter-spacing="2" fill="#DFFF00">AFTER — TRANSFERABLE ASSET</text>
+  <!-- before card -->
+  <rect x="40" y="72" width="320" height="348" rx="16" fill="#0F0F10" stroke="#2D2D31"/>
+  <!-- after card -->
+  <rect x="400" y="72" width="320" height="348" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+  <g font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15">
+    <g fill="#9A9A9F">
+      <text x="64" y="118">Business stops when you stop</text>
+      <text x="64" y="170">Revenue tied to your relationships</text>
+      <text x="64" y="222">Operations in your head</text>
+      <text x="64" y="274">AI underutilized</text>
+      <text x="64" y="326" font-family="'IBM Plex Mono',monospace">3x–4x EBITDA at exit</text>
+      <text x="64" y="378">Can't take a real vacation</text>
+    </g>
+    <g fill="#F3F3F3">
+      <text x="424" y="118">Business runs without you</text>
+      <text x="424" y="170">Diversified, transferable revenue</text>
+      <text x="424" y="222">Documented, repeatable systems</text>
+      <text x="424" y="274">AI embedded across workflows</text>
+      <text x="424" y="326" font-family="'IBM Plex Mono',monospace" fill="#DFFF00">7x–8x EBITDA at exit</text>
+      <text x="424" y="378">You can leave for a month</text>
+    </g>
+  </g>
+  <!-- arrow -->
+  <g stroke="#DFFF00" stroke-width="2.5" fill="none">
+    <line x1="364" y1="246" x2="396" y2="246"/>
+    <polyline points="388,240 396,246 388,252"/>
+  </g>
+</svg>

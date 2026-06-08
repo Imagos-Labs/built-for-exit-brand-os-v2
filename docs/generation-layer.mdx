@@ -1,0 +1,56 @@
+---
+title: Generation layer
+sidebar_label: Generation layer
+---
+
+# Generation layer
+
+The machine half of the brand OS: what you hand an image model to get on-brand output. Files live in [`static/brand/generation-layer/`](/brand/generation-layer/).
+
+## Fastest path: the hosted skill
+
+Follow [`create-on-brand-image`](/brand/generation-layer/skills/create-on-brand-image/SKILL.md). It loads `/brand.txt`, picks the best image model in your harness, passes the Golden Atomic Brand References, honors the banned terms, and stamps the wordmark. To add a permanent new reference to the canon, use [`create-gabr`](/brand/generation-layer/skills/create-gabr/SKILL.md).
+
+## Master prompt
+
+The always-on style preamble — **copy it** and prepend it to any asset request. Full text: [`master-prompt.md`](/brand/generation-layer/master-prompt.md).
+
+```text title="Master prompt (excerpt)"
+Visual asset for Built for Exit. Register: a private equity firm, a luxury automotive brand,
+and an elite operating-system company had a child. Should feel like Porsche, Blackstone,
+Anduril, Palantir, Linear, Stripe Press. Mood: engineered, deliberate, institutional, calm.
+Palette (dark is canonical): near-black #050505 grounds, soft white #F3F3F3, exactly ONE
+accent — Exit Yellow #DFFF00 — marking a single value moment. Flat and matte: NO shadows, NO
+gradients, NO neon, NO glow. If photography: founder ALONE, B&W, empty office / hangar /
+control room — never smiling teams or stock photos. If diagram/icon: outlined, geometric,
+minimal — no illustration. Numbers in IBM Plex Mono. Headlines uppercase grotesk.
+```
+
+## Example prompts
+
+Per-asset starting points (founder-alone hero, control room, dependency diagram, scorecard, stat card): [`example-prompts.md`](/brand/generation-layer/example-prompts.md). Each prepends the master prompt and names the reference GABR to pass in.
+
+## Reference set
+
+Use the [Golden Atomic Brand References](/golden-atomic-brand-references) as in-context image references. Always pass the matching reference for any reused element (the Hollow 4, a recurring figure) so style never drifts. **Vector graphics (diagrams, scorecards, radar) are authored as SVG** in `static/brand/motifs/` — edit the source, don't regenerate.
+
+## The always-on wordmark workflow
+
+1. Generate the art layer **clean** — reserve an empty band; don't ask the model to draw the wordmark text.
+2. **Stamp the real wordmark PNG** (`/brand/logos/raster/wordmark-white.png` or `lockup-horizontal.png`) into the band. Crisp and identical every time.
+
+## Banned terms
+
+Visual + verbal bans, enforced on every render and every line of copy: [`banned-terms.md`](/brand/generation-layer/banned-terms.md).
+
+## Visual spec
+
+Per-asset canvas sizes, the two visual modes, and rules: [`illustrations/SPEC.md`](/brand/generation-layer/illustrations/SPEC.md).
+
+## The discipline
+
+- Store every render's **prompt next to the output**.
+- **Validate** each new exemplar with a human before it becomes golden.
+- **Pass golden references back in** for reused elements.
+- **Exit Yellow only at the single value moment.** No shadows. Numbers in mono.
+- The repo + `BRAND.md` stay canonical; this portal renders over them.
