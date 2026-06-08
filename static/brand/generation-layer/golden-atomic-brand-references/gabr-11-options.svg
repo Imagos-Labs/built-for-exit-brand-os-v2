@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Transferability creates options">
+  <title>Transferability creates options</title>
+  <rect width="1200" height="560" fill="#050505"/>
+  <text x="80" y="96" font-size="13" font-weight="700" letter-spacing="3" fill="#9A9A9F">WHY IT MATTERS</text>
+  <text x="80" y="150" font-size="46" font-weight="800" fill="#F3F3F3">TRANSFERABILITY CREATES <tspan fill="#DFFF00">OPTIONS</tspan>.</text>
+
+  <g font-family="Inter,sans-serif">
+    <g transform="translate(80,220)">
+      <rect width="248" height="230" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <rect x="0" y="0" width="248" height="4" rx="2" fill="#DFFF00"/>
+      <text x="28" y="70" font-family="'Inter Tight',sans-serif" font-size="24" font-weight="800" fill="#F3F3F3">SUCCESSION</text>
+      <text x="28" y="112" font-size="15" fill="#9A9A9F"><tspan x="28" dy="0">Pass the company to</tspan><tspan x="28" dy="22">the next generation.</tspan></text>
+    </g>
+    <g transform="translate(384,220)">
+      <rect width="248" height="230" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="28" y="70" font-family="'Inter Tight',sans-serif" font-size="22" font-weight="800" fill="#F3F3F3">CEO TRANSITION</text>
+      <text x="28" y="112" font-size="15" fill="#9A9A9F"><tspan x="28" dy="0">Install a CEO and</tspan><tspan x="28" dy="22">step back.</tspan></text>
+    </g>
+    <g transform="translate(688,220)">
+      <rect width="248" height="230" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="28" y="70" font-family="'Inter Tight',sans-serif" font-size="24" font-weight="800" fill="#F3F3F3">SCALE</text>
+      <text x="28" y="112" font-size="15" fill="#9A9A9F"><tspan x="28" dy="0">Grow without becoming</tspan><tspan x="28" dy="22">the bottleneck.</tspan></text>
+    </g>
+    <g transform="translate(992,220)">
+      <rect width="248" height="230" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="28" y="70" font-family="'Inter Tight',sans-serif" font-size="24" font-weight="800" fill="#F3F3F3">EXIT</text>
+      <text x="28" y="112" font-size="15" fill="#9A9A9F"><tspan x="28" dy="0">Sell when the timing</tspan><tspan x="28" dy="22">is right.</tspan></text>
+    </g>
+  </g>
+  <text x="80" y="512" font-family="Inter,sans-serif" font-size="18" fill="#9A9A9F">Selling is one outcome. <tspan fill="#F3F3F3">Optionality is the objective.</tspan></text>
+</svg>

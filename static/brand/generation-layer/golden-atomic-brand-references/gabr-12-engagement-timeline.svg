@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Engagement timeline">
+  <title>Engagement timeline — assess to exit ready</title>
+  <rect width="1280" height="320" fill="#050505"/>
+  <text x="80" y="80" font-size="13" font-weight="700" letter-spacing="3" fill="#9A9A9F">THE ENGAGEMENT</text>
+  <text x="80" y="124" font-size="34" font-weight="800" fill="#F3F3F3">ASSESS → EXIT READY</text>
+
+  <line x1="110" y1="200" x2="1170" y2="200" stroke="#2D2D31" stroke-width="1.5"/>
+  <g text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1">
+    <!-- 6 stages at x: 110, 322, 534, 746, 958, 1170 -->
+    <g><circle cx="110"  cy="200" r="9"  fill="#050505" stroke="#2D2D31" stroke-width="2"/><text x="110"  y="244" fill="#9A9A9F">ASSESS</text></g>
+    <g><circle cx="322"  cy="200" r="9"  fill="#050505" stroke="#2D2D31" stroke-width="2"/><text x="322"  y="244" fill="#9A9A9F">DOCUMENT</text></g>
+    <g><circle cx="534"  cy="200" r="9"  fill="#050505" stroke="#2D2D31" stroke-width="2"/><text x="534"  y="244" fill="#9A9A9F">SYSTEMIZE</text></g>
+    <g><circle cx="746"  cy="200" r="9"  fill="#050505" stroke="#2D2D31" stroke-width="2"/><text x="746"  y="244" fill="#9A9A9F">DE-RISK</text></g>
+    <g><circle cx="958"  cy="200" r="9"  fill="#050505" stroke="#DFFF00" stroke-width="2"/><text x="958"  y="244" fill="#F3F3F3">OPTIMIZE</text></g>
+    <g><circle cx="1170" cy="200" r="11" fill="#DFFF00"/><text x="1170" y="244" fill="#DFFF00">EXIT READY</text></g>
+  </g>
+</svg>

@@ -1,8 +1,8 @@
 # gabr-01-dependency-diagram
 
 - **Status:** golden (vector). Authored as SVG; source: `../../motifs/dependency-diagram.svg`.
-- **Type:** founder-at-center dependency diagram.
+- **Type:** founder-dependency diagram — framed as THE PROBLEM.
 - **Render:** `rsvg-convert -w 1100 motifs/dependency-diagram.svg`.
-- **What it is:** FOUNDER node ringed in Exit Yellow at the center, six function nodes (Sales, Operations, Finance, Hiring, Delivery, Decisions) wired back to it with 1px steel lines on near-black. "SINGLE POINT" tagged in IBM Plex Mono.
-- **Reuse:** pass as the reference for any "single point of failure" / dependency visual. Edit the SVG, never repaint.
-- **Alt text:** A diagram of a founder at the center of a business, with every function connected back to that one person.
+- **What it is:** Every business function (Sales, Operations, Finance, Delivery, Hiring, Decisions) arrows INWARD to a single alarm-yellow FOUNDER node labeled "BOTTLENECK." Caption: "OWNER DEPENDENCY IS THE MOST EXPENSIVE PROBLEM IN YOUR BUSINESS." (EXPENSIVE in Exit Yellow). The point: everything runs through one person — the single point of failure.
+- **Reuse:** the canonical "this is the problem" visual. Pairs with gabr-02 (before/after) as the resolution. Edit the SVG, never repaint.
+- **Alt text:** A diagram showing every business function flowing into a single founder who is the bottleneck and single point of failure.

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="The System — five levers">
+  <title>The System™ — five levers, one transformation</title>
+  <rect width="1200" height="675" fill="#050505"/>
+  <text x="80" y="96" font-size="13" font-weight="700" letter-spacing="3" fill="#9A9A9F">THE SYSTEM™</text>
+  <text x="80" y="152" font-size="46" font-weight="800" fill="#F3F3F3">FIVE LEVERS. ONE TRANSFORMATION.</text>
+  <text x="80" y="200" font-size="46" font-weight="800" fill="#DFFF00">LASTING FREEDOM.</text>
+
+  <!-- 5 cards -->
+  <g>
+    <!-- card geometry: x start 80, width 208, gap 16, y 260 h 320 -->
+    <g transform="translate(80,280)">
+      <rect width="208" height="300" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="24" y="60" font-family="'IBM Plex Mono',monospace" font-size="22" fill="#DFFF00">01</text>
+      <text x="24" y="120" font-size="22" font-weight="800" fill="#F3F3F3">DOCUMENTATION</text>
+      <text x="24" y="158" font-family="Inter,sans-serif" font-size="14" fill="#9A9A9F"><tspan x="24" dy="0">Get every core</tspan><tspan x="24" dy="20">process out of</tspan><tspan x="24" dy="20">your head.</tspan></text>
+    </g>
+    <g transform="translate(304,280)">
+      <rect width="208" height="300" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="24" y="60" font-family="'IBM Plex Mono',monospace" font-size="22" fill="#DFFF00">02</text>
+      <text x="24" y="120" font-size="22" font-weight="800" fill="#F3F3F3">SYSTEMS</text>
+      <text x="24" y="158" font-family="Inter,sans-serif" font-size="14" fill="#9A9A9F"><tspan x="24" dy="0">Repeatable systems</tspan><tspan x="24" dy="20">that run without</tspan><tspan x="24" dy="20">you.</tspan></text>
+    </g>
+    <g transform="translate(528,280)">
+      <rect width="208" height="300" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="24" y="60" font-family="'IBM Plex Mono',monospace" font-size="22" fill="#DFFF00">03</text>
+      <text x="24" y="120" font-size="22" font-weight="800" fill="#F3F3F3">OPERATIONS</text>
+      <text x="24" y="158" font-family="Inter,sans-serif" font-size="14" fill="#9A9A9F"><tspan x="24" dy="0">Remove key-person</tspan><tspan x="24" dy="20">risk at every</tspan><tspan x="24" dy="20">layer.</tspan></text>
+    </g>
+    <g transform="translate(752,280)">
+      <rect width="208" height="300" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="24" y="60" font-family="'IBM Plex Mono',monospace" font-size="22" fill="#DFFF00">04</text>
+      <text x="24" y="120" font-size="22" font-weight="800" fill="#F3F3F3">REVENUE</text>
+      <text x="24" y="158" font-family="Inter,sans-serif" font-size="14" fill="#9A9A9F"><tspan x="24" dy="0">Revenue that</tspan><tspan x="24" dy="20">survives the</tspan><tspan x="24" dy="20">founder.</tspan></text>
+    </g>
+    <g transform="translate(976,280)">
+      <rect width="208" height="300" rx="16" fill="#1A1A1D" stroke="#2D2D31"/>
+      <text x="24" y="60" font-family="'IBM Plex Mono',monospace" font-size="22" fill="#DFFF00">05</text>
+      <text x="24" y="120" font-size="20" font-weight="800" fill="#F3F3F3">FINANCIAL</text>
+      <text x="24" y="146" font-size="20" font-weight="800" fill="#F3F3F3">&amp; DILIGENCE</text>
+      <text x="24" y="186" font-family="Inter,sans-serif" font-size="14" fill="#9A9A9F"><tspan x="24" dy="0">Clean financials</tspan><tspan x="24" dy="20">buyers can</tspan><tspan x="24" dy="20">trust.</tspan></text>
+    </g>
+  </g>
+</svg>

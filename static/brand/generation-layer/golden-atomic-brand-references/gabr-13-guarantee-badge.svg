@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Money-back guarantee badge">
+  <title>Money-back guarantee badge</title>
+  <rect width="480" height="480" fill="#050505"/>
+  <!-- octagon badge, outlined geometric -->
+  <polygon points="240,60 367,113 420,240 367,367 240,420 113,367 60,240 113,113"
+           fill="#0F0F10" stroke="#2D2D31" stroke-width="2"/>
+  <polygon points="240,92 344,135 387,240 344,344 240,387 136,344 93,240 136,135"
+           fill="none" stroke="#DFFF00" stroke-width="2"/>
+  <text x="240" y="196" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="2" fill="#9A9A9F">MONEY-BACK</text>
+  <text x="240" y="262" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="64" font-weight="600" fill="#DFFF00">100%</text>
+  <text x="240" y="312" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="2" fill="#F3F3F3">GUARANTEE</text>
+</svg>

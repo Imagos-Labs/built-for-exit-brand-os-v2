@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="You may never sell. That's fine.">
+  <title>You may never sell — the involuntary-exit statistics</title>
+  <rect width="1200" height="675" fill="#050505"/>
+  <text x="80" y="96" font-size="13" font-weight="700" letter-spacing="3" fill="#9A9A9F">THE PROBLEM</text>
+  <text x="80" y="150" font-size="46" font-weight="800" fill="#F3F3F3">YOU MAY NEVER SELL. THAT'S FINE.</text>
+  <line x1="80" y1="186" x2="1120" y2="186" stroke="#2D2D31"/>
+
+  <!-- 50% -->
+  <text x="80" y="356" font-family="'IBM Plex Mono',monospace" font-size="150" font-weight="600" fill="#DFFF00">50%</text>
+  <text x="84" y="404" font-family="Inter,sans-serif" font-size="20" fill="#F3F3F3">of business exits are involuntary.</text>
+  <g font-family="'IBM Plex Mono',monospace" font-size="16" fill="#9A9A9F">
+    <text x="84" y="452">DEATH</text><text x="84" y="482">DISABILITY</text><text x="84" y="512">DIVORCE</text>
+    <text x="300" y="452">DISAGREEMENT</text><text x="300" y="482">DISTRESS</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="620" y1="230" x2="620" y2="540" stroke="#2D2D31"/>
+
+  <!-- 80% -->
+  <text x="680" y="356" font-family="'IBM Plex Mono',monospace" font-size="150" font-weight="600" fill="#F3F3F3">80%</text>
+  <text x="684" y="404" font-family="Inter,sans-serif" font-size="20" fill="#9A9A9F">of business owners have no transition plan in place.</text>
+
+  <!-- footer line -->
+  <text x="80" y="612" font-family="Inter,sans-serif" font-size="18" fill="#9A9A9F">Exit readiness is insurance. We help you get there <tspan fill="#F3F3F3">before you need to be.</tspan></text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="'Inter Tight','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Valuation uplift at exit">
+  <title>Valuation uplift — 3-4x to 7-8x EBITDA at exit</title>
+  <rect width="1000" height="700" fill="#050505"/>
+  <text x="80" y="96" font-size="13" font-weight="700" letter-spacing="3" fill="#9A9A9F">THE VALUATION UPLIFT</text>
+  <text x="80" y="150" font-size="42" font-weight="800" fill="#F3F3F3">WHAT TRANSFERABILITY IS WORTH.</text>
+
+  <!-- baseline -->
+  <line x1="80" y1="560" x2="920" y2="560" stroke="#2D2D31"/>
+
+  <!-- before bar (founder-dependent) -->
+  <rect x="200" y="430" width="200" height="130" fill="#1A1A1D" stroke="#2D2D31"/>
+  <text x="300" y="412" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="40" fill="#9A9A9F">3–4x</text>
+  <text x="300" y="592" text-anchor="middle" font-size="14" font-weight="600" letter-spacing="1" fill="#9A9A9F">FOUNDER-DEPENDENT</text>
+
+  <!-- arrow -->
+  <g stroke="#DFFF00" stroke-width="3" fill="none">
+    <line x1="430" y1="360" x2="560" y2="280"/>
+    <polyline points="544,278 562,278 562,296"/>
+  </g>
+
+  <!-- after bar (transferable) -->
+  <rect x="600" y="250" width="200" height="310" fill="#DFFF00"/>
+  <text x="700" y="232" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="40" fill="#DFFF00">7–8x</text>
+  <text x="700" y="592" text-anchor="middle" font-size="14" font-weight="600" letter-spacing="1" fill="#F3F3F3">TRANSFERABLE</text>
+
+  <text x="80" y="660" font-family="Inter,sans-serif" font-size="18" fill="#9A9A9F">EBITDA multiple at exit. Same company. <tspan fill="#F3F3F3">Built to be handed over.</tspan></text>
+</svg>

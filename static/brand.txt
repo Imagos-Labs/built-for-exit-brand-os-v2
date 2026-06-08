@@ -102,6 +102,19 @@ Signature: the Hollow 4 (a bold, slightly oblique outlined numeral 4 in Exit Yel
 - https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-05-progression-rail.png
 - https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-06-founder-alone.png
 - https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-07-control-room.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-08-involuntary-exits.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-09-the-system.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-10-valuation-uplift.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-11-options.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-12-engagement-timeline.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-13-guarantee-badge.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-14-hollow4-watermark.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-15-hangar.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-16-warehouse.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-17-airport-departure.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-18-empty-boardroom.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-19-process-wall.png
+- https://brand.builtforexit.ai/brand/generation-layer/golden-atomic-brand-references/gabr-20-desk-dashboard.png
 
 ## Fonts
 
