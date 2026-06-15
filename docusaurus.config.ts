@@ -10,7 +10,7 @@ const config: Config = {
   tagline: 'Transferability creates freedom.',
   favicon: 'img/favicon.png',
 
-  future: {v4: true},
+  future: {v4: true, faster: true},
 
   url: 'https://brand.builtforexit.ai',
   baseUrl: '/',
